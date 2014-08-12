@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30626.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{2DE28343-05B2-476E-BC26-A7C3BE00BF6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{0508ECE8-B549-4B3A-AFCA-479E340543F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{22F89BF8-546D-46F4-B565-58B3335215ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{050B71C3-9A1E-4A86-BFFF-08496B9E7147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNameBravo.Domain.Entities", "BusinessLayer\CodeNameBravo.DomainEntities\CodeNameBravo.Domain.Entities.csproj", "{8DF45EDB-EBF2-466C-81A3-F4FB8999F636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNameBravo.Domain.Services", "BusinessLayer\CodeNameBravo.DomainServices\CodeNameBravo.Domain.Services.csproj", "{11F162FB-2730-4EEC-B71E-071F049CC0A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNameBravo.DAL", "DataAccessLayer\CodeNameBravo.DAL\CodeNameBravo.DAL.csproj", "{2A17244F-C5A0-4AD8-93E0-74CD8EF3384A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNameBravo.DAL.Interfaces", "DataAccessLayer\CodeNameBravo.DAL.Interfaces\CodeNameBravo.DAL.Interfaces.csproj", "{63FF711A-33EC-4E5F-A32F-219026DF33B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNameBravo.Web", "PresentationLayer\CodeNameBravo\CodeNameBravo.Web.csproj", "{6C15533A-E818-4328-87CB-F03F3E5D603D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNameBravo.Init", "PresentationLayer\CodeNameBravo.Init\CodeNameBravo.Init.csproj", "{B95FCEB2-EE83-40D6-A3AF-75CA895494EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNameBravo.Test", "CodeNameBravo.Test\CodeNameBravo.Test.csproj", "{278538AE-EB6D-4E8E-879C-8CBEBEB06EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeNameBravo.Domain.Interfaces", "BusinessLayer\CodeNameBravo.DomainInterfaces\CodeNameBravo.Domain.Interfaces.csproj", "{AB612207-78F1-422C-BA9F-E839367EFC2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DF45EDB-EBF2-466C-81A3-F4FB8999F636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF45EDB-EBF2-466C-81A3-F4FB8999F636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF45EDB-EBF2-466C-81A3-F4FB8999F636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF45EDB-EBF2-466C-81A3-F4FB8999F636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F162FB-2730-4EEC-B71E-071F049CC0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F162FB-2730-4EEC-B71E-071F049CC0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F162FB-2730-4EEC-B71E-071F049CC0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F162FB-2730-4EEC-B71E-071F049CC0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A17244F-C5A0-4AD8-93E0-74CD8EF3384A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A17244F-C5A0-4AD8-93E0-74CD8EF3384A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A17244F-C5A0-4AD8-93E0-74CD8EF3384A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A17244F-C5A0-4AD8-93E0-74CD8EF3384A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63FF711A-33EC-4E5F-A32F-219026DF33B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63FF711A-33EC-4E5F-A32F-219026DF33B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63FF711A-33EC-4E5F-A32F-219026DF33B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63FF711A-33EC-4E5F-A32F-219026DF33B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C15533A-E818-4328-87CB-F03F3E5D603D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C15533A-E818-4328-87CB-F03F3E5D603D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C15533A-E818-4328-87CB-F03F3E5D603D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C15533A-E818-4328-87CB-F03F3E5D603D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95FCEB2-EE83-40D6-A3AF-75CA895494EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95FCEB2-EE83-40D6-A3AF-75CA895494EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95FCEB2-EE83-40D6-A3AF-75CA895494EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95FCEB2-EE83-40D6-A3AF-75CA895494EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278538AE-EB6D-4E8E-879C-8CBEBEB06EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278538AE-EB6D-4E8E-879C-8CBEBEB06EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278538AE-EB6D-4E8E-879C-8CBEBEB06EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278538AE-EB6D-4E8E-879C-8CBEBEB06EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB612207-78F1-422C-BA9F-E839367EFC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB612207-78F1-422C-BA9F-E839367EFC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB612207-78F1-422C-BA9F-E839367EFC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB612207-78F1-422C-BA9F-E839367EFC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DF45EDB-EBF2-466C-81A3-F4FB8999F636} = {2DE28343-05B2-476E-BC26-A7C3BE00BF6B}
+		{11F162FB-2730-4EEC-B71E-071F049CC0A7} = {2DE28343-05B2-476E-BC26-A7C3BE00BF6B}
+		{2A17244F-C5A0-4AD8-93E0-74CD8EF3384A} = {0508ECE8-B549-4B3A-AFCA-479E340543F0}
+		{63FF711A-33EC-4E5F-A32F-219026DF33B5} = {0508ECE8-B549-4B3A-AFCA-479E340543F0}
+		{6C15533A-E818-4328-87CB-F03F3E5D603D} = {22F89BF8-546D-46F4-B565-58B3335215ED}
+		{B95FCEB2-EE83-40D6-A3AF-75CA895494EB} = {22F89BF8-546D-46F4-B565-58B3335215ED}
+		{278538AE-EB6D-4E8E-879C-8CBEBEB06EB0} = {050B71C3-9A1E-4A86-BFFF-08496B9E7147}
+		{AB612207-78F1-422C-BA9F-E839367EFC2C} = {2DE28343-05B2-476E-BC26-A7C3BE00BF6B}
+	EndGlobalSection
+EndGlobal

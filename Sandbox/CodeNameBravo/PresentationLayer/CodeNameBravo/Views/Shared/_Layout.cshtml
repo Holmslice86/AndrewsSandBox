@@ -1,0 +1,22 @@
+﻿@using System.Web.Optimization;
+
+<!DOCTYPE html>
+<html data-ng-app="codeNameBravo" data-ng-controller="homeController as vm">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/App/_Dependencies/angular.min.js"></script>
+    @Styles.Render("~/Content/base")
+    @Scripts.Render("~/Scripts/base")
+
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+        @RenderSection("scripts", required: false)
+    </div>
+</body>
+</html>

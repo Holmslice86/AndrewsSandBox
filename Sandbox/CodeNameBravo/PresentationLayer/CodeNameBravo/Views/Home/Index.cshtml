@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>@ViewBag.Title</h2>
+
+    <div class="container-fluid">
+
+        <div>
+            Is Angular Working ? 
+            {{vm.Answer}}
+        </div>
+        <div data-ng-repeat="store in vm.GetStores()">
+            {{store.Name}}
+        </div>
+
+    </div>

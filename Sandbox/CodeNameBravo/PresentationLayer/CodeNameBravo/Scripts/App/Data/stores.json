@@ -1,0 +1,52 @@
+﻿[
+	{
+		"ItemId":"1",
+		"Name": "Harry Potter",
+		"Price": "40.00"
+	},	
+	{
+		"ItemId":"2",
+		"Name": "Hunger Games",
+		"Price": "30.00"
+	},
+	{
+		"ItemId":"3",
+		"Name":"Divergence",
+		"Price":"20.00"
+	},
+	{
+		"ItemId":"4",
+		"Name":"Twilight",
+		"Price":"5.00"
+	},
+	{
+		"ItemId":"5",
+		"Name":"The Maze Runner",
+		"Price":"20.50"
+	},
+	{
+		"ItemId":"6",
+		"Name":"City of Bones",
+		"Price":"22.70"
+	},
+	{
+		"ItemId":"7",
+		"Name":"Golden Compass",
+		"Price":"32.00"
+	},
+	{
+		"ItemId":"8",
+		"Name":"Eragon",
+		"Price":"29.99"
+	},
+	{
+		"ItemId":"9",
+		"Name":"P. Jackson",
+		"Price":"21.00"
+	},
+	{
+		"ItemId":"10",
+		"Name":"M. Thompson",
+		"Price":"42.34"
+	}
+]
